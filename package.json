@@ -1,0 +1,14 @@
+{
+  "name": "ovard-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "register-commands": "node register-commands.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "discord.js": "^14.15.3"
+  }
+}
